@@ -1,0 +1,45 @@
+:root {
+  --bright-blue: hsl(220, 98%, 61%);
+  --check-background-gradient: linear-gradient hsl(192, 100%, 67%) to
+    hsl(280, 87%, 65%);
+
+  /* Dark theme */
+  --very-dark-blue: hsl(235, 21%, 11%);
+  --very-dark-desaturated-blue: hsl(235, 24%, 19%);
+  --light-grayish-blue: hsl(234, 39%, 85%);
+  --light-grayish-blue: hsl(236, 33%, 92%);
+  --Dark-grayish-blue: hsl(234, 11%, 52%);
+  --very-dark-grayish-blue: hsl(233, 14%, 35%);
+  --very-dark-grayish-blue: hsl(237, 14%, 26%);
+
+  /* Fonts */
+  --font: 'Josefin Sans', sans-serif;
+}
+
+/* Boilerplate code */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
